@@ -6,7 +6,7 @@ def check_prime(N):
     if N < 2:
         return False
 #Loop through potential divisors from 2 to square root of N
-    for i in range(2, int(N**0.5)+1):
+    for i in range(2, int(N//2)+1):
            if N % i == 0:
                return False
 #If no divisors found, then return True

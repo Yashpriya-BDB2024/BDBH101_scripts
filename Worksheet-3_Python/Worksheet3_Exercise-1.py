@@ -3,7 +3,7 @@
 
 def capitalize(fruits):
 # Each fruit present in the input list will get capitalized & will be stored in the list called 'capitalized_fruits'.
-    capitalized_fruits=[fruits.capitalize() for fruits in fruits]   
+    capitalized_fruits=[fruits.capitalize() for fruits in fruits]   # Use of list comprehension
     print(f"Capitalized fruits: {capitalized_fruits}")
 def main():
     fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
